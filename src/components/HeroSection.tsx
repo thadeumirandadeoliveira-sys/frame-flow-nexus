@@ -42,10 +42,10 @@ const HeroSection = () => {
               Solicitar Orçamento
               <ArrowRight className="ml-2" size={20} />
             </Button>
-            <Button variant="outline-hero" size="lg">
+            {/* <Button variant="outline-hero" size="lg">
               <Play className="mr-2" size={20} />
               Ver Showreel
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

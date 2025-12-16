@@ -3,8 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Instagram } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import Whatsapp from "@/assets/wp_icon.svg";
 
 const ContactSection = () => {
   const { toast } = useToast();
@@ -56,18 +57,18 @@ const ContactSection = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
             {/* Contact Info */}
-            <div className="lg:col-span-1 space-y-6 animate-slide-in">
+            <div className="flex flex-row gap-6 justify-center">
               <Card className="bg-card border-border shadow-soft">
                 <CardContent className="p-6">
                   <div className="flex items-start gap-4">
                     <div className="p-3 rounded-lg bg-accent/10 text-accent">
-                      <Mail size={24} />
+                      <Instagram size={24} />
                     </div>
                     <div>
-                      <h3 className="font-semibold mb-1">Email</h3>
-                      <p className="text-sm text-muted-foreground">contato@studiopro.com.br</p>
+                      <h3 className="font-semibold mb-1">Instagram</h3>
+                      <p className="text-sm text-muted-foreground">@mirandafilmstv_</p>
                     </div>
                   </div>
                 </CardContent>
@@ -77,17 +78,17 @@ const ContactSection = () => {
                 <CardContent className="p-6">
                   <div className="flex items-start gap-4">
                     <div className="p-3 rounded-lg bg-accent/10 text-accent">
-                      <Phone size={24} />
-                    </div>
+                      <img src={Whatsapp} alt="WhatsApp" style={{width: 28}}/>
+                      </div>
                     <div>
                       <h3 className="font-semibold mb-1">Telefone</h3>
-                      <p className="text-sm text-muted-foreground">(11) 99999-9999</p>
+                      <p className="text-sm text-muted-foreground">(22) 99938-8406</p>
                     </div>
                   </div>
                 </CardContent>
               </Card>
 
-              <Card className="bg-card border-border shadow-soft">
+              {/* <Card className="bg-card border-border shadow-soft">
                 <CardContent className="p-6">
                   <div className="flex items-start gap-4">
                     <div className="p-3 rounded-lg bg-accent/10 text-accent">
@@ -102,11 +103,11 @@ const ContactSection = () => {
                     </div>
                   </div>
                 </CardContent>
-              </Card>
+              </Card> */}
             </div>
 
             {/* Contact Form */}
-            <div className="lg:col-span-2 animate-fade-in">
+            {/* <div className="lg:col-span-2 animate-fade-in">
               <Card className="bg-card border-border shadow-elegant">
                 <CardContent className="p-8">
                   <form onSubmit={handleSubmit} className="space-y-6">
@@ -176,7 +177,7 @@ const ContactSection = () => {
                   </form>
                 </CardContent>
               </Card>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

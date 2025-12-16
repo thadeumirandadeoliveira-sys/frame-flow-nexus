@@ -20,13 +20,13 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.instagram.com/mirandafilmstv_"
                 className="p-2 rounded-lg bg-secondary hover:bg-accent hover:text-accent-foreground transition-fast"
                 aria-label="Instagram"
               >
                 <Instagram size={20} />
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="p-2 rounded-lg bg-secondary hover:bg-accent hover:text-accent-foreground transition-fast"
                 aria-label="LinkedIn"
@@ -46,7 +46,7 @@ const Footer = () => {
                 aria-label="Facebook"
               >
                 <Facebook size={20} />
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -82,9 +82,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-4">Serviços</h4>
             <ul className="space-y-2 text-muted-foreground">
               <li>Produção de Vídeo</li>
-              <li>Gravação de Áudio</li>
               <li>Edição e Pós-Produção</li>
-              <li>Motion Graphics</li>
             </ul>
           </div>
         </div>

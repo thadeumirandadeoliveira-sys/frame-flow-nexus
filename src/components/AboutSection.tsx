@@ -14,7 +14,7 @@ const values = [
   },
   {
     icon: Zap,
-    title: "Tecnologia de Ponta",
+    title: "Tecnologia",
     description: "Equipamentos modernos para resultados cinematográficos",
   },
   {
@@ -30,10 +30,10 @@ const AboutSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">Sobre Nós</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">Sobre</h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Somos um estúdio audiovisual especializado em transformar ideias em conteúdo visual de impacto.
-              Com mais de uma década de experiência, nossa equipe combina expertise técnica com criatividade
+              Sou um profissional de audiovisual especializado em transformar ideias em conteúdo visual de impacto.
+              Com experiência, nossa equipe combina expertise técnica com criatividade
               para entregar projetos que superam expectativas.
             </p>
           </div>
@@ -47,7 +47,7 @@ const AboutSection = () => {
               </p>
               <h3 className="text-2xl font-semibold mb-4">Nossa Visão</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Ser referência no mercado audiovisual brasileiro, reconhecidos pela excelência técnica,
+                Ser referência no mercado audiovisual local, reconhecidos pela excelência técnica,
                 inovação criativa e compromisso com resultados que geram valor real para nossos clientes.
               </p>
             </div>

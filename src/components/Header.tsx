@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoImage from "@/assets/logo_transp.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +22,7 @@ const Header = () => {
             className="text-2xl font-bold bg-clip-text text-transparent"
             style={{ backgroundImage: 'linear-gradient(90deg, hsl(195 85% 45%), hsl(195 100% 85%))' }}
           >
-            MirandaFilms
+            <img src={logoImage} alt="Logo MirandaFilms" className="ml-2 w-20 h-20 rounded-full" />
           </div>
 
           {/* Desktop Navigation */}

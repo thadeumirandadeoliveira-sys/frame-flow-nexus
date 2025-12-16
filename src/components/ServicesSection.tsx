@@ -1,7 +1,7 @@
 import { Video, Mic, Scissors, Camera, Film, Headphones } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import videoImage from "@/assets/service-video.jpg";
-import audioImage from "@/assets/service-audio.jpg";
+import videoImage from "@/assets/zve10.jpg";
+import direcao from "@/assets/direcao.jpeg";
 import editingImage from "@/assets/service-editing.jpg";
 
 const services = [
@@ -11,12 +11,12 @@ const services = [
     description: "Captação profissional com equipamentos cinema de última geração e equipe especializada.",
     image: videoImage,
   },
-  {
-    icon: Mic,
-    title: "Gravação de Áudio",
-    description: "Estúdio com acústica tratada e tecnologia de ponta para gravações de alta fidelidade.",
-    image: audioImage,
-  },
+  // {
+  //   icon: Mic,
+  //   title: "Gravação de Áudio",
+  //   description: "Estúdio com acústica tratada e tecnologia de ponta para gravações de alta fidelidade.",
+  //   image: audioImage,
+  // },
   {
     icon: Scissors,
     title: "Edição e Pós-Produção",
@@ -25,22 +25,22 @@ const services = [
   },
   {
     icon: Camera,
-    title: "Direção de Fotografia",
+    title: "Direção de Filmagem",
     description: "Iluminação e composição visual para criar a atmosfera perfeita do seu projeto.",
-    image: null,
+    image: direcao,
   },
-  {
-    icon: Film,
-    title: "Animação e Motion",
-    description: "Criação de animações 2D, 3D e motion graphics para seu conteúdo audiovisual.",
-    image: null,
-  },
-  {
-    icon: Headphones,
-    title: "Sound Design",
-    description: "Desenho sonoro, mixagem e masterização para elevar a qualidade do seu áudio.",
-    image: null,
-  },
+  // {
+  //   icon: Film,
+  //   title: "Animação e Motion",
+  //   description: "Criação de animações 2D, 3D e motion graphics para seu conteúdo audiovisual.",
+  //   image: null,
+  // },
+  // {
+  //   icon: Headphones,
+  //   title: "Sound Design",
+  //   description: "Desenho sonoro, mixagem e masterização para elevar a qualidade do seu áudio.",
+  //   image: null,
+  // },
 ];
 
 const ServicesSection = () => {
