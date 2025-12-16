@@ -17,7 +17,10 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          <div className="text-2xl font-bold gradient-accent bg-clip-text text-transparent">
+          <div 
+            className="text-2xl font-bold bg-clip-text text-transparent"
+            style={{ backgroundImage: 'linear-gradient(90deg, hsl(195 85% 45%), hsl(195 100% 85%))' }}
+          >
             StudioPro
           </div>
 
