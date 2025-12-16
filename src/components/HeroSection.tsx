@@ -27,7 +27,10 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto animate-fade-in-up">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Transformamos Ideias em{" "}
-            <span className="gradient-accent bg-clip-text text-transparent">
+            <span 
+              className="bg-clip-text text-transparent"
+              style={{ backgroundImage: 'linear-gradient(90deg, hsl(195 85% 45%), hsl(195 100% 85%))' }}
+            >
               Experiências Visuais
             </span>
           </h1>
