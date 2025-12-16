@@ -9,8 +9,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div className="md:col-span-2">
-            <h3 className="text-2xl font-bold gradient-accent bg-clip-text text-transparent mb-4">
-              StudioPro
+            <h3 
+              className="text-2xl font-bold bg-clip-text text-transparent mb-4"
+              style={{ backgroundImage: 'linear-gradient(90deg, hsl(195 85% 45%), hsl(195 100% 85%))' }}
+            >
+              MirandaFilms
             </h3>
             <p className="text-muted-foreground mb-4 max-w-md">
               Transformando ideias em experiências visuais memoráveis com excelência técnica e criatividade.
@@ -87,7 +90,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>© {currentYear} StudioPro. Todos os direitos reservados.</p>
+          <p>© {currentYear} MirandaFilms. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
