@@ -21,7 +21,7 @@ const Header = () => {
             className="text-2xl font-bold bg-clip-text text-transparent"
             style={{ backgroundImage: 'linear-gradient(90deg, hsl(195 85% 45%), hsl(195 100% 85%))' }}
           >
-            StudioPro
+            MirandaFilms
           </div>
 
           {/* Desktop Navigation */}
